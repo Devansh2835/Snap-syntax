@@ -1,0 +1,151 @@
+body {
+    animation: changeBg 9s infinite alternate;
+}
+
+@keyframes changeBg {
+    0% { background-color: #329a39; }
+    33% { background-color: #8d7241; }
+    66% { background-color: #6d7599; }
+    100% { background-color: #945f88; }
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    padding-top: 35px;
+    position: absolute;
+    height: 20%;
+    top: 0;
+}
+.pam{
+    width: 30rem;
+}
+.pam h1{
+    margin-top: 5px;
+    font-size: 42px;
+}
+.info{
+    width: 20%
+}
+.proj{
+    width: 20%;
+}
+.some{
+    width: 45%;
+}
+.some h1{
+    font-size:42px ;
+    margin-top: 5px;
+}
+.some p{
+    font-size: 23px;
+}
+.view{
+    width: 30rem;
+}
+a{
+    font-size: 35px;
+}
+.main{
+    height: 80vh;
+    margin-top: 200px;
+    top: 100px;
+    overflow: auto;
+    justify-items: center;
+}
+.card{
+    height: 90%;
+    width: 75%;
+    margin-top:20px ;
+    position: relative;
+    text-align: end;
+    padding-top: 15px;
+}
+img{
+    height: 80%;
+    width: 90%;
+    margin: 20px;
+    top: 10px;
+    margin-right: 20px;
+    display: block;
+}
+.card h2{
+   align-items:flex-end;
+   left: -20px;
+   margin-right: 30px;
+}
+video {
+    width: 100%;
+    border-radius: 10px;
+}
+.video-container-1 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%; /* Adjust size as needed */
+    z-index: 1;
+    opacity: .7;
+}
+.video-container-2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 80%;
+    width: 25%; /* Adjust size as needed */
+    z-index: 1;
+    opacity: .7;
+}
+.video-container-3 {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 80%;
+    width: 50%; /* Adjust size as needed */
+    z-index: 1;
+    opacity: .7;
+}
+.video-container-4 {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 80%;
+    width: 28%; /* Adjust size as needed */
+    z-index: 1;
+    opacity: .8;
+}
+.video-container-5 {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 80%;
+    width: 50%; /* Adjust size as needed */
+    z-index: 1;
+    opacity: .8;
+}
+.video-container-6 {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 80%;
+    width: 40%; /* Adjust size as needed */
+    z-index: 1;
+    opacity: .8;
+}
+.video-container-7 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 80%;
+    width: 28%; /* Adjust size as needed */
+    z-index: 1;
+    opacity: .5;
+}
+.icon{
+    font-size: 100rem;
+}
